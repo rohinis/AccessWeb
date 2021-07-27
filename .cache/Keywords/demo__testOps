@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A8FF12DB7583F6F2B430AAF30C70C779",
+  "keywordClasses": [
+    {
+      "name": "demo.testOps",
+      "keywordMethods": [
+        {
+          "name": "folderOps",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

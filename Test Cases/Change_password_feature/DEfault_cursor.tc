@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DEfault_cursor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2db5871-8f22-4d52-9ef7-670faa9b4e4a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5465588b-4e74-432a-a4cb-11c81e4d2581</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+</TestCaseEntity>

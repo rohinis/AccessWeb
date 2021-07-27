@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "AF43AD9DEF4A57D4227EDFBF5251A293",
+  "keywordClasses": [
+    {
+      "name": "preReq.jobMonitorigColFilter",
+      "keywordMethods": [
+        {
+          "name": "addColumn",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

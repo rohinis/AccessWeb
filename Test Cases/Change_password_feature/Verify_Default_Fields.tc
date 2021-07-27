@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_Default_Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a94ad10-afd2-4bc2-90b6-26f1bada17b3</testCaseGuid>
+   <variable>
+      <defaultValue>'Old Password'</defaultValue>
+      <description></description>
+      <id>180081c4-39de-4ef3-9980-31e396baf5b8</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Password'</defaultValue>
+      <description></description>
+      <id>5fd11c86-ac7b-44f1-82c2-57205704828f</id>
+      <masked>false</masked>
+      <name>msg2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Confirm Password'</defaultValue>
+      <description></description>
+      <id>5213a02c-b053-47c9-b247-6757e7a5d30a</id>
+      <masked>false</masked>
+      <name>msg3</name>
+   </variable>
+   <variable>
+      <defaultValue>'\r\nChange password feature - Verify Default Fields '</defaultValue>
+      <description></description>
+      <id>69bac704-0ef7-4ca1-b4f8-2d00169c6407</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+</TestCaseEntity>

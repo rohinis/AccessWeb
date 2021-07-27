@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Default_Cursor_Highlight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4506ac42-6227-4126-a468-434bce564483</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f40d50f9-1a2f-49e2-ace0-8b51822caf0f</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+</TestCaseEntity>

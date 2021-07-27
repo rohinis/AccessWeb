@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "380335DF66E20CF1113089527D4C6A2E",
+  "keywordClasses": [
+    {
+      "name": "buildTestObj.CreateFilesPageTestObj_obsolate",
+      "keywordMethods": [
+        {
+          "name": "FileRowIdentifireForCompressedFile",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

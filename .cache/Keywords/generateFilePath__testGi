@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "21CC11F009030ED534EC365E5F35CF8B",
+  "keywordClasses": [
+    {
+      "name": "generateFilePath.testGi",
+      "keywordMethods": [
+        {
+          "name": "FolderRowIdentifireForUnCompressedFile",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

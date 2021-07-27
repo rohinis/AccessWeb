@@ -1,0 +1,4 @@
+Module=FileModule
+csvfile=D:/CodeCompare/Rohini/AccessWeb/Reports/20210719_190409/Regression/FileModule/20210719_190409/20210719_190409.csv
+browser=FireFox
+reportName=FileModule_FireFox_19072021_190426.html
