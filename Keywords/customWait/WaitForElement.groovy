@@ -21,7 +21,7 @@ public class WaitForElement {
 				isElemenetPresent =WebUI.verifyElementClickable(to)
 				//, FailureHandling.CONTINUE_ON_FAILURE)
 				extentTest.log(LogStatus.PASS, elementName+' clickable within - '+i+' Secs')
-				}
+			}
 			catch (Exception  ex) {
 				println("Exception")
 			}

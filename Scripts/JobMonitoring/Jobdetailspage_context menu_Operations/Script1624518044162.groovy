@@ -8,18 +8,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
 
 import internal.GlobalVariable as GlobalVariable
+//====================================================================================
+ReportFile = (GlobalVariable.G_ReportName + '.html')
 
-'Login into PAW '
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
-FailureHandling.STOP_ON_FAILURE)
+def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
 
-
-String ReportFile=GlobalVariable.G_ReportName+".html"
-
-def extent=CustomKeywords.'generateReports.GenerateReport.create'(ReportFile,GlobalVariable.G_Browser,GlobalVariable.G_BrowserVersion)
-def LogStatus = com.relevantcodes.extentreports.LogStatus;
+def LogStatus = com.relevantcodes.extentreports.LogStatus
 
 def extentTest = extent.startTest(TestCaseName)
+
+CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
+
+//=====================================================================================
 def result
 WebUI.delay(2)
 try
@@ -66,42 +66,18 @@ try
 	{
 		case 'Input':
 			WebUI.click(findTestObject('JobMonitoringPage/InputFolder'))
-		//WebUI.rightClick(findTestObject('JobMonitoringPage/OutputFolder_File'))
-
 			extentTest.log(LogStatus.PASS, 'Click on Input Folder')
-			WebUI.waitForElementPresent(findTestObject('Object Repository/JobMonitoringPage/hpccluster'), 5)
-			
-				def Text1 = WebUI.getText(findTestObject('Object Repository/JobMonitoringPage/hpccluster'))
-			
-				extentTest.log(LogStatus.PASS, 'Notification Generated ' + Text1)
-				/*
-				fileName='Running.sh'
-				TestObject newFileObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_File_ListView'), 'title', 'equals',
-						fileName, true)
-						*/
-				
-				//WebUI.rightClick(findTestObject('Object Repository/JobMonitoringPage/Running.e'))
-				WebUI.delay(2)
-			break;
-
+			WebUI.delay(1)
+			break
 		case 'Output':
-		WebUI.click(findTestObject('JobMonitoringPage/OutputFolder'))
-		extentTest.log(LogStatus.PASS, 'Click on Output Folder')
-			WebUI.waitForElementVisible(findTestObject('JobMonitoringPage/OutputFolder'), 5)
-		//WebUI.rightClick(findTestObject('JobMonitoringPage/OutputFolder_File'))
-			WebUI.waitForElementVisible(findTestObject('JobMonitoringPage/OutputFolder'), 5)
-		    String text2 = WebUI.getAttribute(findTestObject('Object Repository/JobMonitoringPage/breadcrumb'), 'title')
-			extentTest.log(LogStatus.PASS, 'Bread crumb value ' + text2)
-			
-			
-			break;
-
+			WebUI.click(findTestObject('JobMonitoringPage/OutputFolder'))
+			extentTest.log(LogStatus.PASS, 'Click on Output Folder')
+			WebUI.delay(1)
+			break
 		case 'Running':
 			WebUI.click(findTestObject('JobMonitoringPage/RunningFolder'))
 			extentTest.log(LogStatus.PASS, 'Click on Running Folder')
-		//WebUI.rightClick(findTestObject('JobMonitoringPage/RunningFolder_File'))
-
-			break;
+			break
 	}
 	result=CustomKeywords.'operations_JobsModule.executeJobAction_JobFiles_Operations.perfromJobAction'(jobAction,TestCaseName,extentTest,userChoice)
 

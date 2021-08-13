@@ -13,7 +13,7 @@
       <name>TestCaseName</name>
    </variable>
    <variable>
-      <defaultValue>'Input'</defaultValue>
+      <defaultValue>'Output'</defaultValue>
       <description></description>
       <id>c5192328-9e17-4097-825c-6bac39ca538d</id>
       <masked>false</masked>

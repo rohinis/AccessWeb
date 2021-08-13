@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>5a8b6d6d-6f19-47eb-a7d4-7acea1da80ca</testCaseGuid>
    <variable>
-      <defaultValue>'Failed'</defaultValue>
+      <defaultValue>'Completed'</defaultValue>
       <description></description>
       <id>fa14e12e-5a6a-419f-8a7f-e37415e0594a</id>
       <masked>false</masked>
       <name>jobState</name>
    </variable>
    <variable>
-      <defaultValue>'Delete'</defaultValue>
+      <defaultValue>'Resubmit'</defaultValue>
       <description></description>
       <id>733a2509-5f57-4bf7-83e2-b170d379821f</id>
       <masked>false</masked>
@@ -27,7 +27,7 @@
       <name>TestCaseName</name>
    </variable>
    <variable>
-      <defaultValue>'ask'</defaultValue>
+      <defaultValue>'na'</defaultValue>
       <description></description>
       <id>b9a88c01-3e4a-42b5-8a6d-68ece165320d</id>
       <masked>false</masked>

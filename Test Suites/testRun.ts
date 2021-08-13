@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e4d07ae2-da78-42a5-a2e7-9e048b187248</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/Create_folder_old</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>df2f0a9c-c10b-4bba-9428-6c66d4dd6cd5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/Create_folder_old</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -57,6 +57,51 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>44855711-d67d-4932-bf58-df854a599660</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09de45d5-c63b-4f78-acf2-59ea268e004b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MultiFileFolder/MultiFolderOperations_WIP</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7d38a3ce-5564-4458-95dc-61fce07b5bff</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>19-36</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataJSMultiFileFolderOps</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7d38a3ce-5564-4458-95dc-61fce07b5bff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>5bd763fe-ffa3-449d-87ab-60d9e59e7d9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7d38a3ce-5564-4458-95dc-61fce07b5bff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Operation</value>
+         <variableId>b3e32d94-fc27-4fac-bac5-8af8fbc40736</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7d38a3ce-5564-4458-95dc-61fce07b5bff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobState</value>
+         <variableId>3beb3812-cbfc-4316-881f-b4b881da1829</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7d38a3ce-5564-4458-95dc-61fce07b5bff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>d8543efa-f4e3-440b-9f80-4c3620bee8b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7d38a3ce-5564-4458-95dc-61fce07b5bff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Type</value>
+         <variableId>44c171f0-ef48-479f-909e-1efeff751738</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

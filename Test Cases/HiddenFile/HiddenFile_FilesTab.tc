@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>26ab4fb0-7ce8-429f-bcfc-0a3561cc0f33</testCaseGuid>
    <variable>
-      <defaultValue>'list'</defaultValue>
+      <defaultValue>'list view normal user'</defaultValue>
       <description></description>
       <id>e59926e0-75b2-4d37-8f59-3f408bd2b2ac</id>
       <masked>false</masked>
       <name>TestCaseName</name>
    </variable>
    <variable>
-      <defaultValue>'.hiddenfolder'</defaultValue>
+      <defaultValue>'.hiddenFile'</defaultValue>
       <description></description>
       <id>0f284c03-c733-4179-b798-61c277154104</id>
       <masked>false</masked>

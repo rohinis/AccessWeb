@@ -145,9 +145,8 @@ public class executeJobAction_JobFiles_Operations {
 
 
 			case 'New File':
-				if(userChoice=='Running')
-				{
-				fileName='Running.sh'
+				if(userChoice=='Running') {
+					fileName='Running.sh'
 				}
 				else  {
 					fileName ='RunJob.sh'
@@ -163,16 +162,19 @@ public class executeJobAction_JobFiles_Operations {
 				WebUI.delay(2)
 				WebUI.click(newJobAction)
 
-				if(TestCaseName.contains('duplicate Running')) {
+				if(TestCaseName.contains('duplicate')) {
 					def newfile=fileName
 					TestObject renameTextBxObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/NewFile_input'), 'value', 'equals', 'New Text Document.txt', true)
 					WebUI.setText(renameTextBxObj,newfile)
 					extentTest.log(LogStatus.PASS, 'NewFile name -   '+newfile)
-				
-				
-			
+
+					
+					WebUI.click(findTestObject('FilesPage/btn_Save'))
+					WebUI.delay(3)
+					extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
+
 					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Cancel'))
-					extentTest.log(LogStatus.PASS, "Click on Cancel button" )
+					extentTest.log(LogStatus.PASS, "Click on Cancel button to return to page " )
 
 					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
 					result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_Duplicate'), 5)
@@ -180,16 +182,15 @@ public class executeJobAction_JobFiles_Operations {
 
 					extentTest.log(LogStatus.PASS, 'Notification Generated ' + text4)
 					extentTest.log(LogStatus.PASS, "Opened Notification Panel and verify the notification" )
-				}
-				else if(TestCaseName.contains('duplicate Output'))
-				{
+				}/*
+				else if(TestCaseName.contains('duplicate Output')) {
 					def newfile1=fileName
 					TestObject renameTextBxObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/NewFile_input'), 'value', 'equals', 'New Text Document.txt', true)
 					WebUI.setText(renameTextBxObj,newfile1)
 					extentTest.log(LogStatus.PASS, 'NewFile name -   '+newfile1)
-				
-				
-			
+
+
+
 					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Cancel'))
 					extentTest.log(LogStatus.PASS, "Click on Cancel button" )
 
@@ -199,9 +200,8 @@ public class executeJobAction_JobFiles_Operations {
 
 					extentTest.log(LogStatus.PASS, 'Notification Generated ' + text4)
 					extentTest.log(LogStatus.PASS, "Opened Notification Panel and verify the notification" )
-					
 				}
-				
+*/
 				else{
 					def Renameto='NewFile.txt'
 					TestObject renameTextBxObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/NewFile_input'), 'value', 'equals', 'New Text Document.txt', true)

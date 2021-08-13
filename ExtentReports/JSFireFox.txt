@@ -1,4 +1,0 @@
-Module=JS
-csvfile=D:/CodeCompare/Rohini/AccessWeb/Reports/20210716_111149/preReq/JS/20210716_111149/20210716_111149.csv
-browser=FireFox
-reportName=JS_FireFox_16072021_111209.html

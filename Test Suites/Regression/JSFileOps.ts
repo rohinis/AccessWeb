@@ -12,6 +12,30 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>bf19985f-d238-4709-9542-973ba388574b</testSuiteGuid>
    <testCaseLink>
+      <guid>7c2060f4-e812-439e-b73a-bf7da80ede90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JobSubmission/MultipleJobSubmissions</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53d74077-eef0-44bf-a79a-ebb3b3690ba9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d34d24f-5e83-48ff-881f-4d9620e2e4c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc913d2d-7bc7-4ca8-a5ec-62e6669bdb3e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>60fc8295-97d4-4e81-a11c-c1bf7c1ef1be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -519,30 +543,6 @@
          <type>DATA_COLUMN</type>
          <value>userChoice</value>
          <variableId>0d0853fe-9935-4957-956d-2f65728efe35</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7c2060f4-e812-439e-b73a-bf7da80ede90</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/JobSubmission/MultipleJobSubmissions</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>53d74077-eef0-44bf-a79a-ebb3b3690ba9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3d34d24f-5e83-48ff-881f-4d9620e2e4c1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bc913d2d-7bc7-4ca8-a5ec-62e6669bdb3e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>5561b3e9-31e1-4e40-9bd4-f39c092d9318</testCaseGuid>
    <variable>
-      <defaultValue>'Completed'</defaultValue>
+      <defaultValue>'Running'</defaultValue>
       <description></description>
       <id>4f7eb206-38bb-4308-8157-d50cfbb0895f</id>
       <masked>false</masked>
@@ -27,7 +27,7 @@
       <name>TestCaseName</name>
    </variable>
    <variable>
-      <defaultValue>'Output'</defaultValue>
+      <defaultValue>'Running'</defaultValue>
       <description></description>
       <id>e8d4e636-42e2-4168-8631-e897b1cf5cfb</id>
       <masked>false</masked>

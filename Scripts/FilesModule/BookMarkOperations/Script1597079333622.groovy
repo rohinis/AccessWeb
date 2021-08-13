@@ -16,17 +16,24 @@ CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 //=====================================================================================
 
 
-def navLocation = CustomKeywords.'generateFilePath.filePath.execLocation'()
-location = navLocation + location
-
-def viewIconTilePresent
-def viewIconListPresent
 
 String screenShot='ExtentReports/'+TestCaseName+option+GlobalVariable.G_Browser+'.png'
 
 TestObject newFileObj
 
 WebUI.delay(2)
+
+
+
+
+def navLocation =CustomKeywords.'generateFilePath.filePath.execLocation'()
+def location=navLocation+'/'+location
+println('##################################################################')
+println (location)
+println('##################################################################')
+
+
+
 
 try {
 	def filesTab =CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('GenericObjects/FilesTab_disabled'),
@@ -39,16 +46,11 @@ try {
 
 	extentTest.log(LogStatus.PASS, 'Click on files tab')
 	WebUI.delay(3)
-	WebUI.mouseOver(findTestObject('FilesPage/Bookmark'))
-	WebUI.click(findTestObject('FilesPage/Bookmark'))
-	WebUI.click(findTestObject('FilesPage/Bookmark'))
-	WebUI.delay(2)
+	WebUI.doubleClick(findTestObject('FilesPage/Bookmark'))
 	extentTest.log(LogStatus.PASS, 'Click on bookmark')
 
 
-
-	switch (option)
-	{
+	switch (option){
 		case 'create':
 
 			WebUI.click(findTestObject('FilesPage/Createbookmark'))
@@ -56,11 +58,10 @@ try {
 			WebUI.delay(2)
 
 			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
-			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' +  bookMarkName)
+			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' + bookMarkName)
 
 
-			WebUI.setText(findTestObject('FilesPage/TxtBx_BookMarkLocation'),location)
-			println(location)
+			WebUI.setText(findTestObject('Object Repository/FilesPage/TxtBx_BookMarkLocation'),location)
 			extentTest.log(LogStatus.PASS, 'Enter the Path of bookmark - '+ location)
 
 
@@ -73,23 +74,22 @@ try {
 			WebUI.click(findTestObject('FilesPage/Managebookmark'))
 			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
 
-			TestObject bookmark =
-					WebUI.modifyObjectProperty(findTestObject('FilesPage/Check_Bookmark'), 'text','equals',bookMarkName , true) 
-					WebUI.click(bookmark)
+			TestObject bookmark = WebUI.modifyObjectProperty(findTestObject('FilesPage/Check_Bookmark'), 'text','equals',bookMarkName , true)
+			WebUI.click(bookmark)
 			extentTest.log(LogStatus.PASS, 'Checked the created bookmark ')
-			break
+			break;
 
 		case'create empty name':
 
 			WebUI.click(findTestObject('FilesPage/Createbookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on create new bookmark') WebUI.delay(2)
+			extentTest.log(LogStatus.PASS, 'Click on create new bookmark')
+			WebUI.delay(2)
 
 			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
-			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' +
-					bookMarkName)
+			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' + bookMarkName)
 
 
-			WebUI.setText(findTestObject('FilesPage/TxtBx_BookMarkLocation'),location)
+			WebUI.setText(findTestObject('Object Repository/FilesPage/TxtBx_BookMarkLocation'),location)
 			extentTest.log(LogStatus.PASS, 'Enter the Path of bookmark - '+ location)
 
 
@@ -98,111 +98,17 @@ try {
 
 			break
 
-		case'Jobsubform':
-
-			WebUI.click(findTestObject('FilesPage/Createbookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on create new bookmark') WebUI.delay(2)
-
-			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
-			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' +
-					bookMarkName)
-
-
-			WebUI.setText(findTestObject('FilesPage/TxtBx_BookMarkLocation'),location)
-			extentTest.log(LogStatus.PASS, 'Enter the Path of bookmark - '+ location)
-
-
-			WebUI.click(findTestObject('FilesPage/Confirm_button'))
-			extentTest.log(LogStatus.PASS, 'Click on ok button')
-
-			WebUI.click(findTestObject('FilesPage/Bookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on bookmark')
-
-			WebUI.click(findTestObject('FilesPage/JobsTab'))
-
-			TestObject newAppObj =
-					WebUI.modifyObjectProperty(findTestObject('NewJobPage/AppList_ShellScript'),
-					'id', 'equals', AppName, true)
-
-			WebUI.click(newAppObj) extentTest.log(LogStatus.PASS, 'Navigated to Job Submission For for - '+AppName)
-			WebUI.click(findTestObject('FilesPage/Bookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on bookmark')
-
-
-			WebUI.click(findTestObject('FilesPage/Managebookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
-
-			TestObject bookmark =
-					WebUI.modifyObjectProperty(findTestObject('FilesPage/Check_Bookmark'),
-					'text','equals',bookMarkName , true) WebUI.click(bookmark)
-			extentTest.log(LogStatus.PASS, 'Checked the created bookmark ')
-
-
-
-			break
-
-		case'ResetAll': WebUI.click(findTestObject('FilesPage/Createbookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on create new bookmark') WebUI.delay(2)
-
-			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
-			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' +
-					bookMarkName)
-
-
-			WebUI.setText(findTestObject('Object	  Repository/FilesPage/TxtBx_BookMarkLocation'),location)
-			extentTest.log(LogStatus.PASS, 'Enter the Path of bookmark - '+ location)
-
-
-			WebUI.click(findTestObject('FilesPage/Confirm_button'))
-			extentTest.log(LogStatus.PASS, 'Click on ok button')
-
-			WebUI.click(findTestObject('FilesPage/Bookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on bookmark')
-
-			WebUI.click(findTestObject('FilesPage/Managebookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
-
-			TestObject bookmark =
-					WebUI.modifyObjectProperty(findTestObject('FilesPage/Check_Bookmark'),
-					'text','equals',bookMarkName , true) WebUI.click(bookmark)
-			extentTest.log(LogStatus.PASS, 'Checked the created bookmark ')
-
-			WebUI.click(findTestObject('Preferences/Profiletab'))
-			extentTest.log(LogStatus.PASS, 'Click on profile tab')
-
-			WebUI.click(findTestObject('Preferences/Preference'))
-			extentTest.log(LogStatus.PASS, 'Click on preference')
-
-			WebUI.click(findTestObject('2020.1/Diagnosis'))
-
-			WebUI.click(findTestObject('2020.1/ResetAll'))
-
-			WebUI.click(findTestObject('2020.1/Okbuttoon'))
-
-			WebUI.click(findTestObject('Preferences/Back'))
-			extentTest.log(LogStatus.PASS, 'Click on back')
-
-			WebUI.click(findTestObject('GenericObjects/FilesTab_disabled'))
-
-			WebUI.click(findTestObject('FilesPage/Bookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on bookmark')
-
-			WebUI.click(findTestObject('FilesPage/Managebookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
-
-			break
-
 		case'manage bookmark invalid path':
 
 			WebUI.click(findTestObject('FilesPage/Createbookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on create new bookmark') WebUI.delay(2)
+			extentTest.log(LogStatus.PASS, 'Click on create new bookmark')
+			WebUI.delay(2)
 
 			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
-			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' +
-					bookMarkName)
+			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' + bookMarkName)
 
 
-			WebUI.setText(findTestObject('Object	  Repository/FilesPage/TxtBx_BookMarkLocation'),location)
+			WebUI.setText(findTestObject('Object Repository/FilesPage/TxtBx_BookMarkLocation'),location)
 			extentTest.log(LogStatus.PASS, 'Enter the Path of bookmark - '+ location)
 
 
@@ -221,42 +127,47 @@ try {
 			WebUI.click(findTestObject('FilesPage/Managebookmark'))
 			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
 
-			TestObject bookmark =
-					WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_BookMark'),
-					'text','equals',location , true) WebUI.click(bookmark)
+			TestObject bookmark = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_BookMark'), 'text','equals',location , true)
+			WebUI.click(bookmark)
 			extentTest.log(LogStatus.PASS, 'Clicked on created bookmark')
 
 			WebUI.verifyElementPresent(findTestObject('FilesPage/InvalidPath_popup'), 2)
 			extentTest.log(LogStatus.PASS, 'Verify invalid path given')
 
 			break
-
-
-
-
 		case 'remove':
 
 			WebUI.click(findTestObject('FilesPage/Managebookmark'))
-			extentTest.log(LogStatus.PASS, 'Click on manage bookmark') 
+			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
 			WebUI.delay(2)
 
-			TestObject bookmark =
-					WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_BookMark'),
-					'text','equals',location , true) WebUI.click(bookmark)
-			extentTest.log(LogStatus.PASS, 'Clicked on created bookmark') WebUI.delay(2)
-			if (TestCaseName.contains("No")) { println("No")
+			TestObject bookmark = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_BookMark'), 'text','equals',location , true)
+			WebUI.click(bookmark)
+			extentTest.log(LogStatus.PASS, 'Clicked on existing bookmark - '+bookMarkName)
+			WebUI.delay(2)
+			if (TestCaseName.contains("No"))
+			{
+				println("No")
 				WebUI.click(findTestObject('Object Repository/Cancel_ModalPanel'))
 				extentTest.log(LogStatus.PASS, 'Click on cancel button')
 
 
-			} else { println("yes")
+			}
+			else {
+				println("yes")
 
 				WebUI.click(findTestObject('Object Repository/GenericObjects/btn_Yes'))
-				extentTest.log(LogStatus.PASS, 'Click on remove button') }
+				extentTest.log(LogStatus.PASS, 'Click on remove button')
+			}
 
-
+			break
+	}
+	if (GlobalVariable.G_Browser == 'IE') {
+		WebUI.callTestCase(findTestCase('Generic/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
+
+
 catch (Exception ex) {
 	String screenShotPath = (('ExtentReports/' + TestCaseName) + GlobalVariable.G_Browser) + '.png'
 	WebUI.takeScreenshot(screenShotPath)
