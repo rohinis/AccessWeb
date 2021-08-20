@@ -92,7 +92,7 @@ try {
 
 	WebUI.click(newJobFilter)
 
-	extentTest.log(LogStatus.PASS, 'Searched for job with Job Name - MultiFolder ')
+	extentTest.log(LogStatus.PASS, 'Searched for job with Job Name - '+Type)
 
 	WebUI.delay(2)
 

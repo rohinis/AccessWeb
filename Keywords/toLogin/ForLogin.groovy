@@ -54,8 +54,6 @@ public class ForLogin {
 		extentTest.log(LogStatus.PASS, 'Clicked on Login Button ')
 
 
-
-
 		def jobsTab = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('Object Repository/Landing_Page/LandigPage_AltairAccess_Link'),
 				10,extentTest, 'AltairAccess Logo ')
 

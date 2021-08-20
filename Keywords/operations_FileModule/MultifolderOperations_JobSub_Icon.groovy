@@ -5,12 +5,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat
 
 import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
+
 
 import internal.GlobalVariable
 
@@ -109,8 +107,8 @@ public class MultifolderOperations_JobSub_Icon {
 
 				extentTest.log(LogStatus.PASS, 'Notification Generated')
 
-				GlobalVariable.G_JobID=CustomKeywords.'operations_JobsModule.GetJobRowDetails.getJobID'(jobText)
-
+				GlobalVariable.G_JobID=(new operations_JobsModule.GetJobRowDetails()).getJobID(jobText)
+				
 				extentTest.log(LogStatus.PASS, 'Job ID - ' + GlobalVariable.G_JobID)
 
 				extentTest.log(LogStatus.PASS, 'Job Submission Done for - ' + TestCaseName)

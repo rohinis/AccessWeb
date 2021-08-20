@@ -20,8 +20,8 @@ public class jobMonitorigColFilter {
 		WebUI.click(findTestObject('Preferences/Reset'))
 		WebUI.click(findTestObject('Preferences/Confirm_button'))
 		WebUI.click(findTestObject('Object Repository/Landing_Page/LandigPage_AltairAccess_Link'))
-		
-		String [] ColName = ['Application', 'Queue', 'Status','User', 'Time' ]
+
+		String [] ColName = ['Application', 'Queue', 'Status', 'User', 'Time']
 		String [] ColFilterLabel=[
 			'job_col_filter_application',
 			'job_col_filter_queueName',
@@ -35,7 +35,6 @@ public class jobMonitorigColFilter {
 			'cb_job_col_filter_jobState',
 			'cb_job_col_filter_userName',
 			'cb_job_col_filter_creationTime',
-
 		]
 
 		WebUI.delay(2)
@@ -70,16 +69,16 @@ public class jobMonitorigColFilter {
 			def isElementChecked=WebUI.verifyElementChecked(filterCB, 5, FailureHandling.CONTINUE_ON_FAILURE)
 			println (isElementChecked)
 			if(isElementChecked){
-			if(name.equals('User')||name.equals('Time')) 
-			{
-				println("Boxed checked")
-				WebUI.click(filterLabel)
-				WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Apply'))
-			}
-			else
-			{
-				println('nothing to do')
-				WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Cancel'))
+				if(name.equals('User')||name.equals('Time'))
+				{
+					println("Boxed checked")
+					WebUI.click(filterLabel)
+					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Apply'))
+				}
+				else
+				{
+					println('nothing to do')
+					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Cancel'))
 				}
 			}
 			else {

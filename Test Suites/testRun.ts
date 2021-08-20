@@ -68,8 +68,8 @@
          <combinationType>ONE</combinationType>
          <id>7d38a3ce-5564-4458-95dc-61fce07b5bff</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>19-36</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>28,29</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataJSMultiFileFolderOps</testDataId>
       </testDataLink>

@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
 
+import CustomKeywords
 import internal.GlobalVariable
 
 public class MultifileOperations_JobSub_Icon {

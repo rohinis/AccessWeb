@@ -1,21 +1,53 @@
 {
-  "keywordFileContentHash": "3B3FA360A5FBDB87CFFAFEEF5DED3661",
+  "keywordFileContentHash": "287338C019DF051C051C132681BA15E7",
   "keywordClasses": [
     {
-      "name": "operations_JobsModule.executeJobAction",
+      "name": "customWait.setPrefrenceHidden",
       "keywordMethods": [
         {
-          "name": "perfromJobAction",
+          "name": "setprefrence",
           "parameters": [
             {
-              "name": "Action",
+              "name": "preValue",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "extentTest",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "checkHiddenItems",
+          "parameters": [
+            {
+              "name": "preValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
@@ -24,24 +56,11 @@
               "name": "TestCaseName",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "userChoice",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }

@@ -126,7 +126,7 @@ switch(userChoice)
 
 		break;
 }
-//result=CustomKeywords.'operations_FileModule.MultifolderOperations_JobSub.executeFileOperations'(jobAction,TestCaseName,extentTest,userChoice)
+//result=CustomKeywords.'operations_FileModule.operations_FileModule.MultifolderOperations_JobSub.executeFileOperations'(jobAction,TestCaseName,extentTest,userChoice)
 
 
 
@@ -144,7 +144,7 @@ switch(userChoice)
 		
 	WebUI.delay(2)
 	println "after is else "+Operation
-	def result=CustomKeywords.'operations_FileModule.MultifolderOperations_JobSub_Icon.executeFileOperations'(Operation, TestCaseName , extentTest)
+	def result=CustomKeywords.'operations_FileModule.operations_FileModule.operations_FileModule.MultifolderOperations_JobSub_Icon.executeFileOperations'(Operation, TestCaseName , extentTest)
 
 	if(result)
 	{

@@ -38,10 +38,10 @@ public class jobSubmissionForPreReq {
 		WebUI.delay(2)
 		WebUI.click(findTestObject('JobSubmissionForm/List_NCPUS'))
 		WebUI.setText(findTestObject('JobSubmissionForm/List_NCPUS'),'2')
-	
-		
+
+
 		if(App.equals('radioss-smp')) {
-		WebUI.setText(findTestObject('JobSubmissionForm/List_NCPUS'),'99')
+			WebUI.setText(findTestObject('JobSubmissionForm/List_NCPUS'),'99')
 			//def f1 = RunConfiguration.getProjectDir() + '/Upload/LAME_EQUERRE_0000.rad'
 			def f2 = RunConfiguration.getProjectDir() + '/Upload/JobFiles/CUBE_0001.rad'
 			def p2 = (new generateFilePath.filePath()).getFilePath(f2)
@@ -57,10 +57,9 @@ public class jobSubmissionForPreReq {
 			WebUI.click(newQueueObj)
 
 		}
-		else {	
-			
+		else {
+
 			WebUI.setText(findTestObject('JobSubmissionForm/List_NCPUS'),'2')
-	
 		}
 		WebUI.scrollToElement(findTestObject('JobSubmissionForm/Link_Server'), 3)
 		WebUI.delay(3)

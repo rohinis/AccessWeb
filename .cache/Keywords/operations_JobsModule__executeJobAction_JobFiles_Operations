@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "4BCB20509B5085D61F942E12644DE104",
+  "keywordFileContentHash": "1084A2EA15B46CAD904164EB3965712F",
   "keywordClasses": [
     {
-      "name": "operations_JobsModule.executeJobAction_JobDetails_Topmenu",
+      "name": "operations_JobsModule.executeJobAction_JobFiles_Operations",
       "keywordMethods": [
         {
           "name": "perfromJobAction",
@@ -35,6 +35,19 @@
             },
             {
               "name": "extentTest",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "userChoice",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.Object",

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>26ab4fb0-7ce8-429f-bcfc-0a3561cc0f33</testCaseGuid>
    <variable>
-      <defaultValue>'list view normal user'</defaultValue>
+      <defaultValue>' pref value - false - normal user'</defaultValue>
       <description></description>
       <id>e59926e0-75b2-4d37-8f59-3f408bd2b2ac</id>
       <masked>false</masked>
@@ -25,5 +25,19 @@
       <id>cc4b6050-efe7-4527-88ef-1c433d086368</id>
       <masked>false</masked>
       <name>Operation</name>
+   </variable>
+   <variable>
+      <defaultValue>'.HiddenFolder'</defaultValue>
+      <description></description>
+      <id>2dfc9a3a-200c-464f-9eea-076c1fba5145</id>
+      <masked>false</masked>
+      <name>folderName</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>0de0b75b-d14b-4ec8-9de0-58d3f48671d5</id>
+      <masked>false</masked>
+      <name>prefValue</name>
    </variable>
 </TestCaseEntity>
