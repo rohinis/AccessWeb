@@ -15,10 +15,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='from_date_date']/div/button/span</value>
+         <value>id(&quot;from_date_date&quot;)/div[@class=&quot;rw-calendar rw-widget&quot;]/div[@class=&quot;rw-calendar-header&quot;]/button[@class=&quot;rw-calendar-btn-left rw-calendar-btn rw-btn&quot;]/svg[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

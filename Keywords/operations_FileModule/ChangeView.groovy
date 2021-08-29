@@ -3,11 +3,13 @@ package operations_FileModule
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.exception.StepErrorException
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
-import com.kms.katalon.core.exception.StepErrorException as StepErrorException
+
+import internal.GlobalVariable as GlobalVariable
 
 
 

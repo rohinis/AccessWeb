@@ -304,7 +304,7 @@ try
 			WebUI.click(findTestObject('AppComposer/Appcomposer'))
 			extentTest.log(LogStatus.PASS, 'Click on App composer')
 			
-			WebUI.delay(3)
+			WebUI.delay(4)
 
 			WebUI.click(findTestObject('AppComposer/LeftIcon'))
 			extentTest.log(LogStatus.PASS, 'Click on left icon Test App')
@@ -535,6 +535,8 @@ try
 			
 			//WebUI.verifyElementPresent(findTestObject('AppComposer/RunningFolder'), 3)
 			extentTest.log(LogStatus.PASS, 'Verify running folder present')
+			
+			WebUI.delay(3)
 			
 			WebUI.click(findTestObject('AppComposer/CloseButton'))
 			extentTest.log(LogStatus.PASS, 'Click on cancel ')

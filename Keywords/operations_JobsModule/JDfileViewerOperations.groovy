@@ -29,7 +29,8 @@ public class JDfileViewerOperations {
 		switch (Operation) {
 
 			case 'Details':
-			    WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_DetailsFile'))
+				WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_DetailsFile'))
+				WebUI.delay(2)
 				WebUI.verifyElementPresent(findTestObject('JobDetailsPage/Icon_DetailsFile'), 3, FailureHandling.STOP_ON_FAILURE)
 				extentTest.log(LogStatus.PASS, 'Clicked on file to view details')
 				TestObject newFileNameDetails=WebUI.modifyObjectProperty(findTestObject('Object Repository/FileEditor/FileName_Text_Details'), 'title', 'equals', 'ToEdit.txt', true)
@@ -52,7 +53,7 @@ public class JDfileViewerOperations {
 
 
 			case 'EditSave':
-				def myXpath="//div[@id='brace-editor']//textarea"
+				def myXpath="//div[@id='ace-editor']//textarea"
 				def myLineXpath='//div[@class="ace_line_group"]'
 				WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_EditFile'))
 				extentTest.log(LogStatus.PASS, 'Click on file edit icon')
@@ -132,7 +133,7 @@ public class JDfileViewerOperations {
 
 			case 'Download':
 
-			    WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_DownloadFile'))
+				WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_DownloadFile'))
 				extentTest.log(LogStatus.PASS, 'Click on file to download')
 				WebUI.delay(3)
 				def downloadLoc=GlobalVariable.G_DownloadFolder
@@ -154,7 +155,7 @@ public class JDfileViewerOperations {
 
 			case 'Delete':
 
-			    WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_DeleteFile'))
+				WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_DeleteFile'))
 				extentTest.log(LogStatus.PASS, 'Click on file to delete')
 				result=true
 				return result

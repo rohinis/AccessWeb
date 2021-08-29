@@ -92,6 +92,13 @@ public class four {
 				TestObject newFileOp=WebUI.modifyObjectProperty(findTestObject('Object Repository/JobMonitoringPage/Resubmit_Icon'), 'text', 'equals', Operation, true)
 				WebUI.click(newFileOp)
 
+				def isElementPresent=(new customWait.WaitForElement()).WaitForelementPresent(findTestObject('Object Repository/JobDetailsPage/Msg_ResubmitWarning'), 5,extentTest, 'Resubmit Warning')
+				if(isElementPresent) {
+					WebUI.check(findTestObject('Object Repository/JobDetailsPage/Msg_ResubmitWarning'))
+					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Yes'))
+				}
+				WebUI.delay(2)
+
 				WebUI.click(findTestObject('JobSubmissionForm/button_Submit_Job'))
 
 				extentTest.log(LogStatus.PASS, 'Clicked on Submit Button ')

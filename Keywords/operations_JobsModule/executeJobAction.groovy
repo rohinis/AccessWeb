@@ -221,14 +221,13 @@ public class executeJobAction {
 						'id', 'equals', Action, true)
 				WebUI.delay(2)
 				WebUI.click(newJobAction)
-				
+
 				def isElementPresent=(new customWait.WaitForElement()).WaitForelementPresent(findTestObject('Object Repository/JobDetailsPage/Msg_ResubmitWarning'), 5,extentTest, 'Resubmit Warning')
-				if(isElementPresent)
-				{
+				if(isElementPresent) {
 					WebUI.check(findTestObject('Object Repository/JobDetailsPage/Msg_ResubmitWarning'))
 					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Yes'))
 				}
-				
+
 				WebUI.click(findTestObject('JobSubmissionForm/button_Submit_Job'))
 				extentTest.log(LogStatus.PASS, 'Resubmitted job  ')
 				isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobSubmission'), 5)

@@ -101,7 +101,7 @@ public class fileViewerOperations {
 
 			case 'EditCancel':
 
-				def myXpath="//div[@id='brace-editor']//textarea"
+				def myXpath="//div[@id='ace-editor']//textarea"
 				def myLineXpath='//div[@class="ace_line_group"]'
 				WebUI.click(findTestObject('FilesPage/FileViewer_Edit'))
 				extentTest.log(LogStatus.PASS, 'Click on file edit icon')

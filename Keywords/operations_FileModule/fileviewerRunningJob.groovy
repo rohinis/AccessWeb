@@ -38,7 +38,7 @@ public class fileviewerRunningJob {
 		switch (Operation) {
 
 			case 'EditSave':
-				def myXpath="//div[@id='brace-editor']//textarea"
+				def myXpath="//div[@id='ace-editor']//textarea"
 				def myLineXpath='//div[@class="ace_line_group"]'
 				WebUI.click(findTestObject('Object Repository/JobDetailsPage/Icon_EditFile'))
 				extentTest.log(LogStatus.PASS, 'Click on file edit icon')

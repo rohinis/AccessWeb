@@ -2,6 +2,8 @@ package customWait
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.openqa.selenium.Keys
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
@@ -109,8 +111,100 @@ public class setPrefrenceHidden {
 		}
 
 	}
+	@Keyword
+	def navigateTo(String TestCaseName , String userChoice ,extentTest)
+	{
+
+		def navLocation =(new generateFilePath.filePath()).execLocation()
+		def location = navLocation + '/HiddenItems/'
+
+		
+		if(userChoice=='Input'||userChoice=='Output')
+		{
+			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/a_Reset'))
+			TestObject newJobFilter = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/label_jobState'), 'text', 'equals',
+					'Completed', true)
+			WebUI.click(newJobFilter)
+			WebUI.delay(2)
+			extentTest.log(LogStatus.PASS, 'Clicked on job with state  - ' + 'Completed')
+			TestObject newJobRow = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/div_Completed'), 'title', 'equals','Completed', true)
+			WebUI.rightClick(newJobRow)
+			WebUI.click(findTestObject('JobMonitoringPage/ViewDetails_Jobs'))
+			extentTest.log(LogStatus.PASS, 'Click on view details job')
+
+		}
+		if(userChoice=='Running')
+		{
+			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/a_Reset'))
+			TestObject newJobFilter = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/label_jobState'), 'text', 'equals',
+					'Running', true)
+			WebUI.click(newJobFilter)
+			WebUI.delay(2)
+			extentTest.log(LogStatus.PASS, 'Clicked on job with state  - ' + 'Running')
+			TestObject newJobRow = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/div_Completed'), 'title', 'equals','Running', true)
+			WebUI.rightClick(newJobRow)
+			WebUI.click(findTestObject('JobMonitoringPage/ViewDetails_Jobs'))
+			extentTest.log(LogStatus.PASS, 'Click on view details job')
+			
+		}
+
+		switch (userChoice) {
+			case 'FilesTab':
+				def filesTab = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('GenericObjects/FilesTab_disabled'), 5,extentTest, 'Files Tab')
+				if (filesTab) {
+					WebUI.click(findTestObject('GenericObjects/TitleLink_Files'))
+				}
+				extentTest.log(LogStatus.PASS, 'Navigated to Files Tab')
+				WebUI.delay(2)
+				(new operations_FileModule.ChangeView()).changePageView(TestCaseName,extentTest)
+				WebUI.delay(2)
+				println(TestCaseName)
+				WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
+				WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
+				WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
+				extentTest.log(LogStatus.PASS, 'Navigated to - ' + location)
+
+				break
+
+			case 'RFB':
+
+				def jobsTab =(new customWait.WaitForElement()).WaitForelementPresent(findTestObject('NewJobPage/AppList_ShellScript'), 5,extentTest, 'Jobs Tab')
+				if (jobsTab) {
+					WebUI.click(findTestObject('GenericObjects/TitleLink_Jobs'))
+				}
+				extentTest.log(LogStatus.PASS, 'Navigated Job Tab')
+				WebUI.delay(2)
+				TestObject newAppObj = WebUI.modifyObjectProperty(findTestObject('NewJobPage/AppList_ShellScript'), 'id', 'equals',
+						'ShellScript', true)
+				WebUI.click(newAppObj)
+				extentTest.log(LogStatus.PASS, 'Navigated to Job Submission For for - '+'ShellScript')
+				WebUI.delay(2)
+				WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
+				WebUI.delay(2)
+				WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
+				WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
+				WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
+				extentTest.log(LogStatus.PASS, 'Navigated to '+location)
+				break
+
+			case 'Input':
+
+				WebUI.click(findTestObject('JobMonitoringPage/InputFolder'))
+				extentTest.log(LogStatus.PASS, 'Click on Input Folder')
+				break
+			case 'Output':
+				WebUI.click(findTestObject('JobMonitoringPage/OutputFolder'))
+				extentTest.log(LogStatus.PASS, 'Click on Output Folder')
+				break
+			case 'Running':
+				WebUI.click(findTestObject('JobMonitoringPage/RunningFolder'))
+				extentTest.log(LogStatus.PASS, 'Click on Running Folder')
+				break
+		}
 
 
+
+	}
 
 }
 

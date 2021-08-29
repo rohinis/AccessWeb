@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>09de45d5-c63b-4f78-acf2-59ea268e004b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MultiFileFolder/MultiFolderOperations_WIP</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -102,6 +102,57 @@
          <type>DATA_COLUMN</type>
          <value>Type</value>
          <variableId>44c171f0-ef48-479f-909e-1efeff751738</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>24f34fc7-8b84-43d2-83a9-3471ef958b94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HiddenFile/HiddenFile_JobDetails</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6be89bec-cb21-4b29-8c05-fed75c133858</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataHiddenFiles</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6be89bec-cb21-4b29-8c05-fed75c133858</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>7f4cd00c-a86b-4fdc-bb5c-e38f39523000</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6be89bec-cb21-4b29-8c05-fed75c133858</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>prefValue</value>
+         <variableId>c40b706c-f8ba-46ef-b66d-3d070425fe12</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6be89bec-cb21-4b29-8c05-fed75c133858</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>c4326ebb-9c02-4e9a-aab0-c69b09c25426</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>07e97774-fcc7-4aa0-8d61-8172b3d8e585</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02dd4064-3539-4c03-bebc-7f29e82f1f09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6be89bec-cb21-4b29-8c05-fed75c133858</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>53e4a74a-4273-43bc-8fd1-518c765394fb</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
