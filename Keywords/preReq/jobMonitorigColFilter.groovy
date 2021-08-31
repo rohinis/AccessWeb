@@ -6,12 +6,13 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.relevantcodes.extentreports.LogStatus
 
 public class jobMonitorigColFilter {
 
 
 	@Keyword
-	def addColumn() {
+	def addColumn(extentTest) {
 
 
 		WebUI.click(findTestObject('Preferences/Profiletab'))
@@ -20,7 +21,8 @@ public class jobMonitorigColFilter {
 		WebUI.click(findTestObject('Preferences/Reset'))
 		WebUI.click(findTestObject('Preferences/Confirm_button'))
 		WebUI.click(findTestObject('Object Repository/Landing_Page/LandigPage_AltairAccess_Link'))
-
+		extentTest.log(LogStatus.PASS, 'Reset prefrences ')
+		
 		String [] ColName = ['Application', 'Queue', 'Status', 'User', 'Time']
 		String [] ColFilterLabel=[
 			'job_col_filter_application',
@@ -50,7 +52,7 @@ public class jobMonitorigColFilter {
 			println('Filter - '+ name);
 			println('Col Lable - '+ColLable)
 			println ('ColCheckBx - '+ColCheckBx )
-
+			extentTest.log(LogStatus.PASS, 'Setting col - '+name)
 			//	WebUI.mouseOver(findTestObject('Object Repository/JobMonitoringPage/JM_column_selector_icon'))
 
 			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/JM_column_selector_icon'))

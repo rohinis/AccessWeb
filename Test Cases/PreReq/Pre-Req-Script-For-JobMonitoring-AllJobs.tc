@@ -13,7 +13,7 @@
       <name>AppName</name>
    </variable>
    <variable>
-      <defaultValue>'FileOps.sh'</defaultValue>
+      <defaultValue>'Running.sh'</defaultValue>
       <description></description>
       <id>996e8ea2-cec6-4c30-b0d1-7cd8c8b66f02</id>
       <masked>false</masked>
