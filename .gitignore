@@ -1,9 +1,9 @@
-/.settings/
-/.classpath
+.settings/
+.classpath
 .svn/
-/Reports/
-/Test Cases/WIP/
-/ExtentReports/
+Reports/
+Test Cases/WIP/
+ExtentReports/
 .cache/
-/bin/
-/Libs/
+bin/
+Libs/
