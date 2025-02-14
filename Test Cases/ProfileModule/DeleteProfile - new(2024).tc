@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteProfile - new(2024)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6aaa736f-1a50-4b51-8451-ff282b973190</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>944e0f85-6fa2-43d9-8b8c-2ef112bf0864</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a7b983c-49c3-45d7-a2e2-a101561f772f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3a4a4af-196b-46d8-b42c-e7cf0c17aef4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd6b07eb-f173-437c-b761-805638b35111</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'set as default'</defaultValue>
+      <description></description>
+      <id>944e0f85-6fa2-43d9-8b8c-2ef112bf0864</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ShellPro'</defaultValue>
+      <description></description>
+      <id>7a7b983c-49c3-45d7-a2e2-a101561f772f</id>
+      <masked>false</masked>
+      <name>proName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ShellScript'</defaultValue>
+      <description></description>
+      <id>c3a4a4af-196b-46d8-b42c-e7cf0c17aef4</id>
+      <masked>false</masked>
+      <name>AppName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cancel'</defaultValue>
+      <description></description>
+      <id>bd6b07eb-f173-437c-b761-805638b35111</id>
+      <masked>false</masked>
+      <name>ProfileType</name>
+   </variable>
+</TestCaseEntity>

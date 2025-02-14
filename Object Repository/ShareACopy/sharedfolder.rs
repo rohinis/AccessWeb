@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sharedfolder</name>
+   <tag></tag>
+   <elementGuidId>529122b5-c17f-405f-bc9e-039676f9eb1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@data-automation-id, 'Shared_by')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e0583346-38fb-4d4b-abaf-3162dd402763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>Shared_by</value>
+      <webElementGuid>f89a5511-38c5-4213-899a-36a3cf6ec301</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
