@@ -23,6 +23,12 @@
       <value></value>
       <variableId>4f68b7d4-a899-4d69-9a4a-b349b5d1e2dc</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b89ed562-8330-483d-adaa-3fd4ee250ae6</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Jobs section  Column sorting In the Jobs Page'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>4f68b7d4-a899-4d69-9a4a-b349b5d1e2dc</id>
       <masked>false</masked>
       <name>colname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b89ed562-8330-483d-adaa-3fd4ee250ae6</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

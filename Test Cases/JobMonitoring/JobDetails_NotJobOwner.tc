@@ -57,7 +57,7 @@
       <name>TestCaseName</name>
    </variable>
    <variable>
-      <defaultValue>'pbsadmin'</defaultValue>
+      <defaultValue>'pbsworks'</defaultValue>
       <description></description>
       <id>19cd4b2a-63b7-4ff8-aa1b-d7382d10b0f7</id>
       <masked>false</masked>

@@ -11,11 +11,24 @@
       <value></value>
       <variableId>e9ba3808-8b00-4693-ac33-8940ba7d6c26</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c772c1b0-8608-4749-921d-f447131b493c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Verify default filters behavior'</defaultValue>
       <description></description>
       <id>e9ba3808-8b00-4693-ac33-8940ba7d6c26</id>
       <masked>false</masked>
       <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'AD-1417'</defaultValue>
+      <description></description>
+      <id>c772c1b0-8608-4749-921d-f447131b493c</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

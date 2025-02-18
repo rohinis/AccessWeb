@@ -65,9 +65,8 @@ public class JDfileViewerOperations {
 				def num=linesBeforeEdit.size()
 			//	extentTest.log(Status.INFO, 'linesBeforeEdit - '+ num)
 
-				RemoteWebElement ele = textEle
-				ele.sendKeys("new line added")
-				ele.sendKeys('\n')
+				textEle.sendKeys("new line added")
+				textEle.sendKeys('\n')
 				extentTest.log(Status.PASS, 'Added new line into file')
 				WebUI.click(findTestObject('Object Repository/FilesPage/btn_Save_fileEditor'))
 				extentTest.log(Status.PASS, 'Saved the file ')
@@ -105,9 +104,8 @@ public class JDfileViewerOperations {
 				def num=linesBeforeEdit.size()
 			//extentTest.log(Status.INFO, 'linesBeforeEdit - '+ num)
 
-				RemoteWebElement ele = textEle
-				ele.sendKeys("new line added")
-				ele.sendKeys('\n')
+				textEle.sendKeys("new line added")
+				textEle.sendKeys('\n')
 				extentTest.log(Status.PASS, 'Added new line into file')
 				WebUI.click(findTestObject('Object Repository/FilesPage/btn_Cancel_fileEditor'))
 				extentTest.log(Status.PASS, 'Saved the file ')
@@ -138,7 +136,7 @@ public class JDfileViewerOperations {
 				extentTest.log(Status.PASS, 'Click on file to download')
 				WebUI.delay(3)
 				def downloadLoc=GlobalVariable.G_DownloadFolder
-				File downloadFolder = new File("C://KatalonDownloads")
+				File downloadFolder = new File("/root/Downloads")
 
 				List namesOfFiles = Arrays.asList(downloadFolder.list())
 				println(namesOfFiles.size())

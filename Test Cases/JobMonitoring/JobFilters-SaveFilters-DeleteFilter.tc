@@ -47,6 +47,12 @@
       <value></value>
       <variableId>5d7a8e47-aa07-4eb1-b1c6-904487ae7a2a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90d6dbf6-8dae-45c4-abdd-efea607638fe</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Job Filters - delete'</defaultValue>
       <description></description>
@@ -95,5 +101,12 @@
       <id>5d7a8e47-aa07-4eb1-b1c6-904487ae7a2a</id>
       <masked>false</masked>
       <name>FilterName</name>
+   </variable>
+   <variable>
+      <defaultValue>'AD-1547'</defaultValue>
+      <description></description>
+      <id>90d6dbf6-8dae-45c4-abdd-efea607638fe</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

@@ -36,7 +36,7 @@ public class GetJobRowDetails {
 		println listElement.size()
 
 		for(int i =1;i<listElement.size();i++) {
-			RemoteWebElement ele = listElement.get(i)
+			WebElement ele = listElement.get(i)
 			String myText=ele.getText()
 			if(myText.equals(FilterValue)) {
 				println (ele.getText())
@@ -76,7 +76,7 @@ public class GetJobRowDetails {
 		println listElement.size()
 
 		for(int i =1;i<listElement.size();i++) {
-			RemoteWebElement ele = listElement.get(i)
+			WebElement ele = listElement.get(i)
 			def myText=ele.getText()
 			if(myText.contains(AllJobsUser)) {
 				extentTest.log(Status.PASS, 'Job Owner value matched for row number - '+ i + ' in jobs table')
@@ -113,7 +113,7 @@ public class GetJobRowDetails {
 		println listElement.size()
 
 		for(int i =1;i<listElement.size();i++) {
-			RemoteWebElement ele = listElement.get(i)
+			WebElement ele = listElement.get(i)
 			def myText=ele.getText()
 			if(myText.contains(AllJobsUser)) {
 				extentTest.log(Status.PASS, 'Job Owner value matched for row number - '+ i + ' in jobs table')

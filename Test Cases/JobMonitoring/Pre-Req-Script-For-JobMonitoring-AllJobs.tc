@@ -4,7 +4,6 @@
    <name>Pre-Req-Script-For-JobMonitoring-AllJobs</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>c79580d0-d12b-4d1f-84ca-9ac75c4880a3</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
