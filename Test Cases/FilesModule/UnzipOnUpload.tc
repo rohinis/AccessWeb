@@ -23,6 +23,12 @@
       <value></value>
       <variableId>a831311e-cfe8-41e1-b858-cf3ecf79a713</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>839044a3-e94c-46b2-b63a-98689c342578</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'tile view - No'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>a831311e-cfe8-41e1-b858-cf3ecf79a713</id>
       <masked>false</masked>
       <name>fileToUpload</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>839044a3-e94c-46b2-b63a-98689c342578</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

@@ -11,11 +11,24 @@
       <value></value>
       <variableId>984824c6-5c08-48ae-bc77-5162dfb8fe5e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f45fd44-3c5b-436d-9394-c6cce55c08b9</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Test to verify Edit File Path in Files Tab'</defaultValue>
       <description></description>
       <id>984824c6-5c08-48ae-bc77-5162dfb8fe5e</id>
       <masked>false</masked>
       <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'AD-6134'</defaultValue>
+      <description></description>
+      <id>0f45fd44-3c5b-436d-9394-c6cce55c08b9</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

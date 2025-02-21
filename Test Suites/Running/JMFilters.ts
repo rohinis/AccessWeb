@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>49406418-af2a-497b-a48d-169784a58f96</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/AD-2855-Column Sorting</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -45,7 +45,7 @@
    <testCaseLink>
       <guid>8ec914af-c956-4c56-b59d-628b08719024</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobFilters-SaveFilters</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -109,7 +109,7 @@
    <testCaseLink>
       <guid>bd287dd7-b0de-4004-b518-fedaa52b09e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobFilters</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -167,7 +167,7 @@
    <testCaseLink>
       <guid>baf856e0-9c51-4b27-b4c1-89c00b09cf64</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobFilters-SaveFilters-DeleteFilter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -222,7 +222,7 @@
    <testCaseLink>
       <guid>62088acb-d161-498a-8e9c-4b783393c5f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobSeacrh</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -259,7 +259,7 @@
    <testCaseLink>
       <guid>3d65828a-64dd-4d09-8922-07787f77c67f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobDetailsPage_LayOutVerifications</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -357,7 +357,7 @@
    <testCaseLink>
       <guid>5eeea36b-2d3f-4c63-a5a8-258434f0fb54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/AD-3418-Verify Applications Filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -382,7 +382,7 @@
    <testCaseLink>
       <guid>6f429f4f-b195-46ee-af68-b7c223980863</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Default_Filters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -401,7 +401,7 @@
    <testCaseLink>
       <guid>aad3736f-8715-4ffb-b6d9-46c228c2a90d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Custom_actions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -426,7 +426,7 @@
    <testCaseLink>
       <guid>1a3b02cf-ddca-4691-9b82-5a4875a89cb4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobFilters-SaveFilters-MaxCount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

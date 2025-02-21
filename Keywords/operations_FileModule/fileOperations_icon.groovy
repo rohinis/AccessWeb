@@ -312,7 +312,7 @@ public class fileOperations_Icon {
 				WebUI.delay(5)
 				extentTest.log(Status.PASS, ' Clicked on Download top menu item')
 
-				File downloadFolder = new File(GlobalVariable.G_DownloadFolder)
+				File downloadFolder = new File("/root/Downloads")
 				List namesOfFiles = Arrays.asList(downloadFolder.list())
 				if (namesOfFiles.contains('ToDownload_LV.txt')) {
 					println('success')

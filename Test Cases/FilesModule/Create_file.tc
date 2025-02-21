@@ -55,6 +55,6 @@
       <description></description>
       <id>f18f1702-516c-495a-a57d-2a26a1c420f6</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>
