@@ -23,6 +23,12 @@
       <value></value>
       <variableId>1b9820b2-a287-4105-9538-86eeadc32e38</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f28e29b1-3c4e-43f0-8356-00c43f140923</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'newTest'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>1b9820b2-a287-4105-9538-86eeadc32e38</id>
       <masked>false</masked>
       <name>userChoice</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f28e29b1-3c4e-43f0-8356-00c43f140923</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

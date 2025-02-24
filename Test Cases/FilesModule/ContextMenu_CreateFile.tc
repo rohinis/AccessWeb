@@ -23,6 +23,12 @@
       <value></value>
       <variableId>bfcee239-bd9a-4fca-98de-44045bb08518</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2848753e-cc2b-4ab4-8c95-935ad9f7b74d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'tw\\o.txt'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>bfcee239-bd9a-4fca-98de-44045bb08518</id>
       <masked>false</masked>
       <name>userChoice</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2848753e-cc2b-4ab4-8c95-935ad9f7b74d</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

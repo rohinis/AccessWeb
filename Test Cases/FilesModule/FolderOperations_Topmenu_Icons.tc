@@ -29,6 +29,12 @@
       <value></value>
       <variableId>3da23bfd-8e4f-4249-9c91-343235062b08</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9d6ffa8-a7be-414a-958f-8aaf2c5641f3</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'MyFolderCompress_LV'</defaultValue>
       <description></description>
@@ -56,5 +62,12 @@
       <id>3da23bfd-8e4f-4249-9c91-343235062b08</id>
       <masked>false</masked>
       <name>Operation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9d6ffa8-a7be-414a-958f-8aaf2c5641f3</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

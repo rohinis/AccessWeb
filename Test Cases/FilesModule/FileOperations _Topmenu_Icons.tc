@@ -23,6 +23,12 @@
       <value></value>
       <variableId>48764322-b43e-4cf8-a125-8a2f6a070349</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ab8e9dc-17c8-4886-bbbf-8fb5708c3e2f</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'ToCopy_TV.txt'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>48764322-b43e-4cf8-a125-8a2f6a070349</id>
       <masked>false</masked>
       <name>Operation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ab8e9dc-17c8-4886-bbbf-8fb5708c3e2f</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

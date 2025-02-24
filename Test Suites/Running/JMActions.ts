@@ -50,6 +50,12 @@
          <value>userChoice</value>
          <variableId>aa175b05-32fc-49ca-a330-8cfe38b2837c</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2f061365-9fe2-4b0f-ac13-e8cc5226950d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>5c1ca323-2db9-459b-9e44-0d056983bc1f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>dfa17099-ee8a-472c-b93a-4583fd2f2081</guid>
@@ -89,6 +95,12 @@
          <type>DATA_COLUMN</type>
          <value>userChoice</value>
          <variableId>b9a88c01-3e4a-42b5-8a6d-68ece165320d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>06eac974-b2c4-4e66-aeb0-8e868195eecc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>c8e7dae0-ef3b-4a0d-984d-dd6a4bea40ec</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -130,6 +142,12 @@
          <value>userChoice</value>
          <variableId>fb69884b-d493-49b8-9b33-2dcf82799a23</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>c83d19f8-43f5-4a16-b490-2588e5abf86c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>ed6b4ad2-9613-43fc-9f93-46ac624c9c0c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>130367d8-1902-44eb-962a-bd44dc2a32ee</guid>
@@ -164,11 +182,17 @@
          <value>TestCaseName</value>
          <variableId>0974633c-cd4f-4eb4-87d0-82966292f7e9</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>714b50a0-e97a-44ed-b200-2f8a259a7171</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>63e62d91-d5b4-4dc5-bf9a-ef1566c82ba2</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f68b96ad-72bb-4cae-bb82-4f981fa08f33</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/FileViewerOpsJobs</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -216,11 +240,17 @@
          <value>Operation</value>
          <variableId>61b6ede2-14cd-45af-bd30-74fa3058990f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>a52ec123-32da-4e48-abb9-8b44dbb8e869</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>21917e61-3655-436f-95f5-0fec759d4214</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/EditRunningFile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -257,9 +287,9 @@
          <variableId>156a826f-73f1-4234-b8db-b63d0476a0ba</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>b2c135e0-b504-4ac8-9de4-df310408fb41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fileName</value>
          <variableId>b5542d4e-0233-4573-b666-f5018604dae6</variableId>
       </variableLink>
       <variableLink>
@@ -268,11 +298,17 @@
          <value></value>
          <variableId>70e8fc63-2e1e-4f32-9412-79787c6321f0</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>b2c135e0-b504-4ac8-9de4-df310408fb41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>8720f150-cccd-4635-b887-92a86f698603</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c9362ffe-9047-4b72-975f-d2889aa28c66</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_uncompress</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -287,11 +323,17 @@
          <value></value>
          <variableId>cbf9d73d-969b-4d15-90d6-26b5b76612ad</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d28ba0aa-6ebe-4ef8-aa14-526f73f4610b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1fbe422d-68fd-480f-8731-b04723850cd0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/RunningFolder_jobspage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -318,11 +360,17 @@
          <value></value>
          <variableId>098e6013-1c93-4f47-8b26-69214f7e665a</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e8cfcce-de02-432d-bbb8-c626621aafc4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6522deb2-0d6e-4da2-9f7e-23034284a15a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_replace_existingfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -337,11 +385,17 @@
          <value></value>
          <variableId>2402d5c3-9454-46b4-91d5-4ee0725f4733</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99fc86ee-a560-4d2d-930f-cb17fa7a9566</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9fa1b0eb-e26c-442a-ae62-ac296b170946</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/FileUpload_ContextMenu</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -368,11 +422,17 @@
          <value></value>
          <variableId>d8dffc92-3d38-46b5-8a4f-2c7fdbe50768</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>01a50351-3221-4c76-a3e4-2dd08082ef8e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>33a98063-2f25-491f-8eac-3e903be77e24</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/AD-2565-Jobs submitted with spaces and special characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -405,11 +465,17 @@
          <value></value>
          <variableId>d2764fb0-ccd3-426c-bcbc-5a1ef9c44673</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d1713ae-9db6-4d34-ac70-59dfbb1ae725</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a748ba03-8638-449d-8830-c4f3186790ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_verify_unzipmessage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -423,6 +489,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>fb4e129b-d74a-4fc3-805c-55abeb31584a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7dc828cb-b0c1-4132-84bd-40edeb3efd65</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -41,6 +41,12 @@
       <value></value>
       <variableId>1e13a056-4455-4e2b-bc18-2e205a4fa439</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f113943e-732e-455f-b01a-1df7443eac58</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'cb_file_col_filter_type'</defaultValue>
       <description></description>
@@ -82,5 +88,12 @@
       <id>1e13a056-4455-4e2b-bc18-2e205a4fa439</id>
       <masked>false</masked>
       <name>dataAttribute</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f113943e-732e-455f-b01a-1df7443eac58</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

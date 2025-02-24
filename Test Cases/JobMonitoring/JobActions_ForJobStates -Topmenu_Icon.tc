@@ -27,7 +27,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>72d56371-4e24-45cb-b863-908e544c2c9c</variableId>
+      <variableId>63e62d91-d5b4-4dc5-bf9a-ef1566c82ba2</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Queued'</defaultValue>
@@ -53,7 +53,7 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>72d56371-4e24-45cb-b863-908e544c2c9c</id>
+      <id>63e62d91-d5b4-4dc5-bf9a-ef1566c82ba2</id>
       <masked>false</masked>
       <name>XrayID</name>
    </variable>

@@ -17,6 +17,12 @@
       <value></value>
       <variableId>f7cb60b7-967b-4fe9-a0d4-ecb89c50d80e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6f92a63-3385-4494-aae2-c302b84b3b24</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Page Navigation'</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>f7cb60b7-967b-4fe9-a0d4-ecb89c50d80e</id>
       <masked>false</masked>
       <name>userChoice</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6f92a63-3385-4494-aae2-c302b84b3b24</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

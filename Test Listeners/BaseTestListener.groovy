@@ -105,9 +105,9 @@ class BaseTestListener {
 		println("==========================")
 		String testcaseName=CustomKeywords.'generateReports.testCaseNameChange.toSplit'(variableList,'TestCaseName')
 		String UpdatedtestcaseName=CustomKeywords.'generateReports.testCaseNameChange.updateTCName'(testcaseName,variableList,tcScriptName)
-		//String XrayID=CustomKeywords.'generateReports.testCaseNameChange.toSplit'(variableList,'XrayID')
-	//	println("==========================")
-	//	println("XrayID : " + XrayID)
+		String XrayID=CustomKeywords.'generateReports.testCaseNameChange.toSplit'(variableList,'XrayID')
+		println("==========================")
+		println("XrayID : " + XrayID)
 		println("==========================")
 		println ("new tn  --- "+UpdatedtestcaseName)
 		println("-------------------------")
@@ -119,8 +119,8 @@ class BaseTestListener {
 		}
 		else
 		{
-			GlobalVariable.G_ExtentTest = extent.createTest(UpdatedtestcaseName)
-			//GlobalVariable.	G_ExtentTest= extent.createTest(UpdatedtestcaseName).assignAuthor(XrayID).assignCategory("sanity").assignDevice("Chrome")
+			//GlobalVariable.G_ExtentTest = extent.createTest(UpdatedtestcaseName)
+			GlobalVariable.	G_ExtentTest= extent.createTest(UpdatedtestcaseName).assignAuthor(XrayID).assignCategory("Regression").assignDevice("Chrome")
 			
 			
 			def extentTest=GlobalVariable.G_ExtentTest
@@ -128,12 +128,11 @@ class BaseTestListener {
 				WebUI.openBrowser('')
 				GlobalVariable.G_ExtentTest.log(Status.PASS, 'Navigated to Acces Instance - '+GlobalVariable.G_BaseUrl)
 				WebUI.deleteAllCookies()
+				WebUI.delay(2)
 				WebUI.navigateToUrl(GlobalVariable.G_BaseUrl)
 				WebUI.maximizeWindow()
 				WebDriver driver = DriverFactory.getWebDriver()
-				//Capabilities caps =((RemoteWebDriver) (((EventFiringWebDriver) driver).getWrappedDriver())).getCapabilities()
-				//def bn= caps.getBrowserName()
-				//def bv = caps.getVersion()
+
 			
 				
 				

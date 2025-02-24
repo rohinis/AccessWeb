@@ -285,20 +285,21 @@ public class executeJobAction {
 				extentTest.log(Status.PASS, 'Downloading job')
 
 
-			/*	def downloadLoc=GlobalVariable.G_DownloadFolder
-			 File downloadFolder = new File("C://KatalonDownloads")
+			
+			def downloadLoc=GlobalVariable.G_DownloadFolder
+			 File downloadFolder = new File("/root/Downloads")
 			 List namesOfFiles = Arrays.asList(downloadFolder.list())
 			 println(namesOfFiles.size())
 			 if (namesOfFiles.contains('ForFileViewer.txt')) {
 			 println('success')
-			 //extentTest.log(Status.PASS, 'file to downloaded ')
+			 extentTest.log(Status.PASS, 'file to downloaded ')
 			 result=true
 			 } else {
 			 println('fail')
 			 result=false
 			 }
 			 return true
-			 */
+			 
 
 				result=true
 				break
