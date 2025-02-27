@@ -8,7 +8,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.aventstack.extentreports.MediaEntityBuilder
 import com.aventstack.extentreports.Status
-//import com.thoughtworks.selenium.webdriven.commands.IsElementPresent
+
 
 import internal.GlobalVariable
 
@@ -316,18 +316,18 @@ public class executeJobAction_JobFiles {
 				extentTest.log(Status.PASS, 'Downloading job')
 
 
-			/*def downloadLoc=GlobalVariable.G_DownloadFolder
-			 File downloadFolder = new File("C://KatalonDownloads")
+			def downloadLoc=GlobalVariable.G_DownloadFolder
+			 File downloadFolder = new File("/root/Downloads")
 			 List namesOfFiles = Arrays.asList(downloadFolder.list())
 			 println(namesOfFiles.size())
 			 if (namesOfFiles.contains('ForFileViewer.txt')) {
 			 println('success')
-			 //extentTest.log(Status.PASS, 'file to downloaded ')
+			 extentTest.log(Status.PASS, 'file to downloaded ')
 			 result=true
 			 } else {
 			 println('fail')
 			 result=false
-			 }*/
+			 }
 
 				return true
 				break

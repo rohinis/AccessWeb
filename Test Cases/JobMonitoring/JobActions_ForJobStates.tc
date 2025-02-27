@@ -33,7 +33,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6ce0cbfc-68da-4faa-ad9f-89b693d75962</variableId>
+      <variableId>c8e7dae0-ef3b-4a0d-984d-dd6a4bea40ec</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Completed'</defaultValue>
@@ -66,7 +66,7 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6ce0cbfc-68da-4faa-ad9f-89b693d75962</id>
+      <id>c8e7dae0-ef3b-4a0d-984d-dd6a4bea40ec</id>
       <masked>false</masked>
       <name>XrayID</name>
    </variable>

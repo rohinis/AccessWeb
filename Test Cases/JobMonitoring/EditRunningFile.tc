@@ -41,6 +41,12 @@
       <value></value>
       <variableId>70e8fc63-2e1e-4f32-9412-79787c6321f0</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8720f150-cccd-4635-b887-92a86f698603</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Running'</defaultValue>
       <description></description>
@@ -82,5 +88,12 @@
       <id>70e8fc63-2e1e-4f32-9412-79787c6321f0</id>
       <masked>false</masked>
       <name>Operation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8720f150-cccd-4635-b887-92a86f698603</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

@@ -21,7 +21,7 @@
          <id>eb81605c-0fb0-4e96-8dad-18c375bbefb9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>1</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForBookMarks</testDataId>
       </testDataLink>
@@ -55,6 +55,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c7d5b966-c3fb-4077-8987-6079bf79f6af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb81605c-0fb0-4e96-8dad-18c375bbefb9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>e2b802f4-839c-473e-91d5-a70896bbe573</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -90,6 +96,12 @@
          <value>Operation</value>
          <variableId>7b950ced-8cb3-43ce-a472-81090d4db7f5</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>e7ae6922-5f7d-4956-931b-25fd9ade9ffe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>08bc64ec-ff58-44c3-a28c-63c30fd13a6b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>82cb6a72-5e68-4dc8-b49b-4092f7c875fd</guid>
@@ -123,6 +135,12 @@
          <type>DATA_COLUMN</type>
          <value>IconOperation</value>
          <variableId>48764322-b43e-4cf8-a125-8a2f6a070349</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1d0a3a65-5039-4adb-a1d1-901f54aec805</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>7ab8e9dc-17c8-4886-bbbf-8fb5708c3e2f</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -158,6 +176,12 @@
          <value>Operation</value>
          <variableId>3c621b68-f5ca-4437-875c-7b8b34a301f4</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>72769dfa-ce6b-473f-b5fe-2b3c6fba3027</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>a3dc6d15-3a98-44a9-b23d-27abafd642d0</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>233ce2e3-e4a1-4efa-87f6-971cd8647788</guid>
@@ -192,6 +216,12 @@
          <value>IconOperation</value>
          <variableId>3c621b68-f5ca-4437-875c-7b8b34a301f4</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>779297c4-316e-4e6c-b0e0-1ec3362f0003</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>a3dc6d15-3a98-44a9-b23d-27abafd642d0</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>36914159-c0f9-444b-9da4-423371ef1836</guid>
@@ -202,7 +232,7 @@
          <combinationType>ONE</combinationType>
          <id>f148e622-3d6f-44be-8355-a67aa489a91a</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>5</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileViewer</testDataId>
@@ -231,6 +261,12 @@
          <type>DATA_COLUMN</type>
          <value>userChoice</value>
          <variableId>ef1274aa-47d9-4785-b26a-d28851f1ff02</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f148e622-3d6f-44be-8355-a67aa489a91a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>6ba517fe-2fc7-442d-a540-a594194550dc</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -267,9 +303,9 @@
          <variableId>cdf52790-8a83-4b10-8c0b-bed0a592b1c4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>7905175c-f321-4223-b404-67ff832afeeb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
          <variableId>f18f1702-516c-495a-a57d-2a26a1c420f6</variableId>
       </variableLink>
    </testCaseLink>
@@ -306,6 +342,12 @@
          <value>userChoice</value>
          <variableId>bfcee239-bd9a-4fca-98de-44045bb08518</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>4b77c4cb-25d6-4579-b564-95d40835a1b0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>2848753e-cc2b-4ab4-8c95-935ad9f7b74d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>240a7bbd-2359-4de3-8236-3ca00c3b9bb4</guid>
@@ -318,6 +360,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>984824c6-5c08-48ae-bc77-5162dfb8fe5e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f45fd44-3c5b-436d-9394-c6cce55c08b9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

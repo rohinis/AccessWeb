@@ -41,6 +41,12 @@
       <value></value>
       <variableId>1e13a056-4455-4e2b-bc18-2e205a4fa439</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a38bcf4-d9a1-4bbf-a918-e3e50107d232</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'cb_job_col_filter_creationTime'</defaultValue>
       <description></description>
@@ -82,5 +88,12 @@
       <id>1e13a056-4455-4e2b-bc18-2e205a4fa439</id>
       <masked>false</masked>
       <name>dataAttribute</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a38bcf4-d9a1-4bbf-a918-e3e50107d232</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>
