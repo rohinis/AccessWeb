@@ -17,6 +17,12 @@
       <value></value>
       <variableId>2402d5c3-9454-46b4-91d5-4ee0725f4733</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99fc86ee-a560-4d2d-930f-cb17fa7a9566</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.G_FileToCreate</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>2402d5c3-9454-46b4-91d5-4ee0725f4733</id>
       <masked>false</masked>
       <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'AD-3008'</defaultValue>
+      <description></description>
+      <id>99fc86ee-a560-4d2d-930f-cb17fa7a9566</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

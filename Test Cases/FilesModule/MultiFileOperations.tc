@@ -23,6 +23,12 @@
       <value></value>
       <variableId>3c621b68-f5ca-4437-875c-7b8b34a301f4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3dc6d15-3a98-44a9-b23d-27abafd642d0</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Delete'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>3c621b68-f5ca-4437-875c-7b8b34a301f4</id>
       <masked>false</masked>
       <name>Operation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3dc6d15-3a98-44a9-b23d-27abafd642d0</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

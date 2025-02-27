@@ -23,6 +23,12 @@
       <value></value>
       <variableId>7b950ced-8cb3-43ce-a472-81090d4db7f5</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08bc64ec-ff58-44c3-a28c-63c30fd13a6b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'ToRename_TV.txt  tile view '</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>7b950ced-8cb3-43ce-a472-81090d4db7f5</id>
       <masked>false</masked>
       <name>TestOperation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08bc64ec-ff58-44c3-a28c-63c30fd13a6b</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

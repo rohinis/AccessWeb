@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>b342e00e-71eb-4010-86fa-eb919bec13e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/FolderOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>41e4f676-9528-4518-900a-9ad376c718e4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>1-4</value>
+            <value>9,10</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
@@ -50,11 +50,17 @@
          <value>Operation</value>
          <variableId>efc4ecd9-7862-4f03-a81e-d1c0cd816749</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>41e4f676-9528-4518-900a-9ad376c718e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>01b7ce83-4386-483a-abd8-9fabbc385c68</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7f2dd3a5-6b1f-4d1f-b6d3-d41c1b027956</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/FolderOperations_Topmenu_Icons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -90,11 +96,17 @@
          <value>IconOperation</value>
          <variableId>3da23bfd-8e4f-4249-9c91-343235062b08</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2f3e7c47-fdc6-4aca-b414-531bc56b5c02</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>e9d6ffa8-a7be-414a-958f-8aaf2c5641f3</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>115782b3-2fac-44ee-8db6-7163ac83c7ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/FileTab_Columnselector</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -142,11 +154,17 @@
          <value>dataAttribute</value>
          <variableId>1e13a056-4455-4e2b-bc18-2e205a4fa439</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>229fae69-5199-4877-a1cd-1e1b1dfafb2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>f113943e-732e-455f-b01a-1df7443eac58</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3c3a0b7b-6e8f-44c7-9a00-03464287a890</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/ContextMenu_CreateFolder</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -176,11 +194,17 @@
          <value>userChoice</value>
          <variableId>d49bcebd-ee34-40c1-926b-44be9a9d2f04</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>26fd5b7f-2434-4fb7-b48d-9f8b723302af</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>a7b8c94c-e557-40ea-b951-3e6368894703</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b5d27faf-5e6a-473e-a936-669c2b2d50a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/FileSearch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -201,11 +225,17 @@
          <value></value>
          <variableId>72a241f5-b169-4683-8d7f-cb32c699b1ce</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1abfce79-7cc3-47b8-88a6-eb25fed1c7d1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fd8bdae7-9b54-4bae-9cdb-c6951d284219</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <iterationNameVariable>
          <defaultValue>'No'</defaultValue>
          <description></description>
@@ -242,11 +272,17 @@
          <value>fileToUpload</value>
          <variableId>a831311e-cfe8-41e1-b858-cf3ecf79a713</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2ee02e77-27ba-4870-9fa4-89ee5ffb7974</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>839044a3-e94c-46b2-b63a-98689c342578</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3458e126-e365-4670-9d18-912cc59abd5f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/Pagination-FilesTab</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -269,6 +305,12 @@
          <type>DATA_COLUMN</type>
          <value>userChoice</value>
          <variableId>f7cb60b7-967b-4fe9-a0d4-ecb89c50d80e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>756088bf-1478-4be7-83be-1cf00846a577</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>a6f92a63-3385-4494-aae2-c302b84b3b24</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -310,11 +352,17 @@
          <value>userChoice</value>
          <variableId>ef1274aa-47d9-4785-b26a-d28851f1ff02</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>f148e622-3d6f-44be-8355-a67aa489a91a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>6ba517fe-2fc7-442d-a540-a594194550dc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>071664d5-9d10-4731-b843-0417cc0ef038</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/Create_folder</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -343,6 +391,12 @@
          <type>DATA_COLUMN</type>
          <value>userChoice</value>
          <variableId>1b9820b2-a287-4105-9538-86eeadc32e38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6de06c28-6991-4210-952b-47a77fa554d7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>XrayID</value>
+         <variableId>f28e29b1-3c4e-43f0-8356-00c43f140923</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

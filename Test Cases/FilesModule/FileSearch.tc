@@ -23,6 +23,12 @@
       <value></value>
       <variableId>72a241f5-b169-4683-8d7f-cb32c699b1ce</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1abfce79-7cc3-47b8-88a6-eb25fed1c7d1</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'search +ve tile view'</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>72a241f5-b169-4683-8d7f-cb32c699b1ce</id>
       <masked>false</masked>
       <name>userChoice</name>
+   </variable>
+   <variable>
+      <defaultValue>'AD-5949'</defaultValue>
+      <description></description>
+      <id>1abfce79-7cc3-47b8-88a6-eb25fed1c7d1</id>
+      <masked>false</masked>
+      <name>XrayID</name>
    </variable>
 </TestCaseEntity>

@@ -4,7 +4,6 @@
    <name>JobFilters</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>ec2d949b-b3a6-4df8-967f-eae3f25e2e36</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -46,7 +45,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>40d68681-c5af-4b2f-ac13-e9fc22540cb7</variableId>
+      <variableId>49bb70e8-6d5f-416a-9c08-84bd4a2143ec</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Shell'</defaultValue>
@@ -93,7 +92,7 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>40d68681-c5af-4b2f-ac13-e9fc22540cb7</id>
+      <id>49bb70e8-6d5f-416a-9c08-84bd4a2143ec</id>
       <masked>false</masked>
       <name>XrayID</name>
    </variable>
