@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pre-Req-Script-For-JobMonitoring-AllJobs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c79580d0-d12b-4d1f-84ca-9ac75c4880a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58ab5183-dd64-4c89-9a2a-3ed385f18550</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e32d5445-6f42-4d0f-a8ea-4b765f7310eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55b52fe6-5593-4c7d-8008-a30c51ac0f0b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e4f647a-3afd-4aad-8b66-79d884001b35</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Pre Requisites for Job Monitoring Suite'</defaultValue>
+      <description></description>
+      <id>58ab5183-dd64-4c89-9a2a-3ed385f18550</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Script'</defaultValue>
+      <description></description>
+      <id>e32d5445-6f42-4d0f-a8ea-4b765f7310eb</id>
+      <masked>false</masked>
+      <name>FileArg</name>
+   </variable>
+   <variable>
+      <defaultValue>'prereq2'</defaultValue>
+      <description></description>
+      <id>55b52fe6-5593-4c7d-8008-a30c51ac0f0b</id>
+      <masked>false</masked>
+      <name>XrayID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Completed'</defaultValue>
+      <description></description>
+      <id>2e4f647a-3afd-4aad-8b66-79d884001b35</id>
+      <masked>false</masked>
+      <name>JobState</name>
+   </variable>
+</TestCaseEntity>

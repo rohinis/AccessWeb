@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QueueSubMenu_AccessQueue</name>
+   <tag></tag>
+   <elementGuidId>bd4245d6-9ea8-4823-8107-c547f53851fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'job_movetoqueue_menu_item job_context_menu_item menu-icon' and @title = 'accessQueue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6300a563-3a22-450c-8024-532a7d1bde17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>job_movetoqueue_menu_item job_context_menu_item menu-icon</value>
+      <webElementGuid>10da6aea-55bc-4b5f-9a2b-44510c896e29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>accessQueue</value>
+      <webElementGuid>55cc09c7-fff1-416a-8a9a-6278bc4aed74</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

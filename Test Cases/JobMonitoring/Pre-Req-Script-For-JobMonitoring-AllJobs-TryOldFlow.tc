@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pre-Req-Script-For-JobMonitoring-AllJobs-TryOldFlow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42816a00-775e-4695-a958-6600c7267e8d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49aed408-7399-46b9-8547-550bd125fd2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6375fb51-5cf1-4eb5-b563-aa1a123310cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b13c55d8-50a6-461e-a65e-344c97261959</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efa4260d-d5f3-4ca9-989b-ce1ff250fc41</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Pre Requisites for Job Monitoring Suite'</defaultValue>
+      <description></description>
+      <id>49aed408-7399-46b9-8547-550bd125fd2b</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Script'</defaultValue>
+      <description></description>
+      <id>6375fb51-5cf1-4eb5-b563-aa1a123310cb</id>
+      <masked>false</masked>
+      <name>FileArg</name>
+   </variable>
+   <variable>
+      <defaultValue>'prereq2'</defaultValue>
+      <description></description>
+      <id>b13c55d8-50a6-461e-a65e-344c97261959</id>
+      <masked>false</masked>
+      <name>XrayID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Completed'</defaultValue>
+      <description></description>
+      <id>efa4260d-d5f3-4ca9-989b-ce1ff250fc41</id>
+      <masked>false</masked>
+      <name>JobState</name>
+   </variable>
+</TestCaseEntity>

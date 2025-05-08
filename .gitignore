@@ -1,0 +1,15 @@
+/bin/
+/Libs/
+.settings/
+settings/
+settings/internal/
+.classpath
+.svn/
+Reports/
+/Test Cases/WIP/
+.cache
+ExtentReports/
+Reports/
+ProfileScreenShots/
+.project
+AccessWeb.prj

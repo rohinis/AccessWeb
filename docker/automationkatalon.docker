@@ -1,0 +1,15 @@
+FROM katalonstudio/katalon:10.1.1
+
+RUN apt-get update && apt-get install -y net-tools vim openssh-client sshpass git wget openjdk-17-jdk 
+
+RUN mkdir /root/.ssh/
+COPY ./artifacts/id_dsa /root/.ssh/id_dsa
+RUN chmod 600 /root/.ssh/id_dsa \
+    && touch /root/.ssh/known_hosts \
+    && ssh-keyscan gitlab.com >> /root/.ssh/known_hosts
+
+ADD ./artifacts/run_test.sh /tmp/
+RUN chmod 777 /tmp/run_test.sh
+
+# set the entry point
+ENTRYPOINT ["sh", "/tmp/run_test.sh"]

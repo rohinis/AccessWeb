@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>pagination_jobsubmissionform</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bc1422f-4a24-43af-9e19-c954bfcd6fd9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80af4c7f-35e5-4519-9686-198549ad2d71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b56f1564-ff0a-49b6-aa56-d4f58c9ee8ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jobs section->job submission form->files section for items less than a page'</defaultValue>
+      <description></description>
+      <id>80af4c7f-35e5-4519-9686-198549ad2d71</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ShellScript'</defaultValue>
+      <description></description>
+      <id>b56f1564-ff0a-49b6-aa56-d4f58c9ee8ef</id>
+      <masked>false</masked>
+      <name>AppName</name>
+   </variable>
+</TestCaseEntity>
